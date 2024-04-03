@@ -8,7 +8,7 @@ import EmailRoutes from "./router/email/index.js";
 import ImageRoutes from "./router/upload/index.js";
 
 const app = Express();
-const port = 3000;
+const port = 3304;
 
 connectdb();
 app.use(json());
